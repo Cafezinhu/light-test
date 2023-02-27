@@ -1,0 +1,10 @@
+[gd_resource type="StandardMaterial3D" load_steps=3 format=3 uid="uid://cyv82mfonwdcs"]
+
+[ext_resource type="Texture2D" uid="uid://bsv4ep031vyf3" path="res://textures/Plaster001_2K_Color.jpg" id="1_tkk3s"]
+[ext_resource type="Texture2D" uid="uid://bnlw7b5emha18" path="res://textures/Plaster001_2K_NormalDX.jpg" id="2_jxesu"]
+
+[resource]
+albedo_texture = ExtResource("1_tkk3s")
+normal_enabled = true
+normal_texture = ExtResource("2_jxesu")
+uv1_triplanar = true
